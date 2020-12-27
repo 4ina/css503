@@ -56,11 +56,9 @@
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
-* [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
@@ -71,24 +69,15 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+We analyze and make explicit the model properties needed for such regularities to emerge in word vectors. The result is a new global log-bilinear regression model that combines the advantages of the two major model families in the literature: global matrix factorization and local context window methods. Our model efficiently leverages statistical information by training only on the nonzero elements in a word-word co-occurrence matrix, rather than on the entire sparse matrix or on individual context windows in a large corpus. The model produces a vector space with meaningful sub- structure, as evidenced by its performance of 75% on a recent word analogy task.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
-
-
+This section should list any libraries that you built your project using.
+* Used libraries: nltk(Natural Language Toolkit) 
+* Keras(deep learning API)
+* Numpy
+* Pandas
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -98,45 +87,33 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+You need to use the software and install them.
+
+Navigate to the location of the pip folder.
+* NLTK(Enter command to install NLTK ) 
 ```sh
-npm install npm@latest -g
+pip3 install nltk
 ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
+Installation should be done successfully.
+* For install pandas and numpy:
 ```
-3. Install NPM packages
-```sh
-npm install
+pip install pandas
+pip install numpy
 ```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
+### This is the result of project
+[![Something wrong][image1]]
+[![Something wrong][image2]]
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
+We had several problems, solved them with below links
+* [Dataset initialization errors](https://stackabuse.com/text-classification-with-python-and-scikit-learn/)
+* Split text to sentences  with "punkt,into a list of sentences
+* [read csv file with utf8](https://stackoverflow.com/questions/59866359/unicodedecodeerror-charmap-codec-cant-decode-byte-0x98-in-position-668-char)
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -148,13 +125,6 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
@@ -202,3 +172,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/shyngyskhan-turganbekov-a40ba6177
 [product-screenshot]: images/screenshot.png
+[product-screenshot]: images/image.png
+[product-screenshot]: images/image2.png
