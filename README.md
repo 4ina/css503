@@ -104,8 +104,8 @@ pip install numpy
 <!-- USAGE EXAMPLES -->
 ## Usage
 ### This is the result of project
-[![Something wrong][image1]]
-[![Something wrong][image2]]
+[![Something wrong][image1]](https://example.com)
+[![Something wrong][image2]](https://example.com)
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -172,5 +172,5 @@ Contributions are what make the open source community such an amazing place to b
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/shyngyskhan-turganbekov-a40ba6177
 [product-screenshot]: images/screenshot.png
-[product-screenshot]: images/image.png
-[product-screenshot]: images/image2.png
+[image1]: images/image.png
+[image2]: images/image2.png
